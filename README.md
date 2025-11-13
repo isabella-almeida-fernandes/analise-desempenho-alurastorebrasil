@@ -22,10 +22,32 @@ Utilizando dados de quatro lojas da “AluraStoreBrasil”, o objetivo é identi
 - Versionamento: Git + GitHub (este repositório)  
 - Formato de entrega: notebook .ipynb com análise, visualizações e conclusões
 
-## 📁 Estrutura do repositório  
-├── Análise_de_Desempenho_AluraStoreBrasil.ipynb
+## 📁 Estrutura do repositório
 
-└── README.md
+```
+├── images/                                  
+├── Análise_de_Desempenho_AluraStoreBrasil.ipynb   
+└── README.md                               
+```
+
+## ▶️ Como executar o notebook
+
+### 🔹 Você pode executar este projeto no Google Colab
+
+Clique no botão abaixo:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/isabella-almeida-fernandes/analise-desempenho-alurastorebrasil/blob/main/Análise_de_Desempenho_AluraStoreBrasil.ipynb)
+
+## 📊 Exemplos de gráficos gerados
+
+### Faturamento total por loja
+![Faturamento por loja](images/grafico-faturamento.png)
+
+### Média de Avaliações por loja
+![Avaliações por loja](images/grafico-avaliacao.png)
+
+### Frete médio por loja
+![Frete médio por loja](images/grafico-frete.png)
 
 ## ✅ Principais resultados  
 - Com base nos dados analisados, foi identificada a **Loja 4** como aquela com pior desempenho - apresentando faturamento inferior, mesmo com um bom volume de vendas em algumas categorias e possuindo o menor frete médio. No entanto, **não há retorno proporcional em receita**.
